@@ -202,7 +202,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 @media (max-width: 1028px) {
-    #title {
+    #title .container-fluid{
         text-align: center;
     }
     .title-img {
@@ -213,5 +213,13 @@ font-family: 'Ubuntu', sans-serif; */
     .navbar-collapse {
         text-align: right;
     }
-    
+    .big-heading {
+        font-size: 2rem;
+    }
+    .testimonial-text {
+        font-size: 2rem;
+    }
+    .section-heading {
+        font-size: 2rem;
+    }
 }
